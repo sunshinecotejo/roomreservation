@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="/log/" />
+
+	<defaultCache maxElementsInMemory="10000" eternal="false"
+		timeToIdleSeconds="300" timeToLiveSeconds="600" diskSpoolBufferSizeMB="30"
+		maxElementsOnDisk="10000" diskExpiryThreadIntervalSeconds="120"
+		memoryStoreEvictionPolicy="LRU" statistics="false">
+	</defaultCache>
+
+	<cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
+		maxElementsInMemory="10000" eternal="false">
+	</cache>
+
+	<cache name="org.hibernate.cache.internal.StandardQueryCache"
+		maxElementsInMemory="10000" eternal="false" timeToLiveSeconds="300">
+	</cache>
+
+	<cache name="com.fsoft.roomreservation.core.model.Reservation"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+
+	<cache name="com.fsoft.roomreservation.core.model.Room"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+
+	<cache name="com.fsoft.roomreservation.core.model.Facility"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+
+	<cache name="com.fsoft.roomreservation.core.model.RoomFacility"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+
+	<cache name="com.fsoft.roomreservation.core.model.Floor"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+
+	<cache name="com.fsoft.roomreservation.core.model.Building"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+
+	<cache name="com.fsoft.roomreservation.core.model.User"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+
+	<cache name="com.fsoft.roomreservation.core.model.Role"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" overflowToDisk="true" />
+		
+</ehcache>

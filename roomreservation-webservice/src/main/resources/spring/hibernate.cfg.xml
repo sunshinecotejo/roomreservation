@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+     <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+        <property name="hibernate.cache.use_second_level_cache">false</property>
+        <property name="hibernate.cache.use_query_cache">false</property>
+       
+ 
+        <mapping class="com.fsoft.roomreservation.core.model.Reservation"></mapping>
+        <mapping class="com.fsoft.roomreservation.core.model.Room"></mapping>
+        <mapping class="com.fsoft.roomreservation.core.model.Facility"></mapping>
+        <mapping class="com.fsoft.roomreservation.core.model.RoomFacility"></mapping>
+        <mapping class="com.fsoft.roomreservation.core.model.Floor"></mapping>
+        <mapping class="com.fsoft.roomreservation.core.model.Building"></mapping>
+        <mapping class="com.fsoft.roomreservation.core.model.User"></mapping>
+        <mapping class="com.fsoft.roomreservation.core.model.Role"></mapping>
+    </session-factory>
+</hibernate-configuration>

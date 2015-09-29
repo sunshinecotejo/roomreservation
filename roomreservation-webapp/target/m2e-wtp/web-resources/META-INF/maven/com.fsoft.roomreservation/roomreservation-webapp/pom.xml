@@ -1,0 +1,129 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.fsoft.roomreservation</groupId>
+    <artifactId>roomreservation-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>roomreservation-webapp</artifactId>
+  <packaging>war</packaging>
+  <name>roomreservation-webapp</name>
+  
+    <properties>
+
+	    <org.springframework-version>4.0.3.RELEASE</org.springframework-version>
+		<!-- Web -->
+		<jsp.version>2.2</jsp.version>
+		<jstl.version>1.2</jstl.version>
+		<servlet.version>2.5</servlet.version>
+		
+		<!-- Spring -->
+		<spring-framework.version>3.2.3.RELEASE</spring-framework.version>
+		
+		
+		<!-- Spring security -->
+		<spring.security.version>3.2.3.RELEASE</spring.security.version>
+		
+        <spring.version>4.1.2.RELEASE</spring.version>
+        
+		<jackson.version>1.9.13</jackson.version>
+	</properties>
+	
+	
+	
+	<dependencies>
+		<!-- jakson databinding -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.12</version>
+		</dependency>
+	
+	
+		<!-- Spring Context -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-context</artifactId>
+		    <version>${org.springframework-version}</version>
+		</dependency>
+		 
+		 <dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-dbcp2</artifactId>
+		    <version>2.0</version>
+		</dependency>	
+		 
+		<!-- Spring MVC -->
+		
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-webmvc</artifactId>
+		    <version>${org.springframework-version}</version>
+		</dependency>
+		
+		<!-- Other Web dependencies -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>${servlet.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>${jsp.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	
+		<!-- Spring Security JSP Taglib -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+ 
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		
+ 		 <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.9</version>
+        </dependency>
+ 
+		<!-- jstl for jsp page -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl.version}</version>
+		</dependency>
+		
+        <dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+	
+	</dependencies>	
+  
+</project>

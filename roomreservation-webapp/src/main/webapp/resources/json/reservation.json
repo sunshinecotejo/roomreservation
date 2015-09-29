@@ -1,0 +1,150 @@
+[
+    {
+        "reservationid": 1,
+        "userId": 1,
+        "roomId": 1,
+        "reservationSchedule": 1435012877000,
+        "duration": 30,
+        "title": "",
+        "description": "",
+        "room": {
+            "roomId": 1,
+            "roomName": "Narnia",
+            "roomCapacity": 2,
+            "floor": {
+                "floorId": 1,
+                "floorNumber": 2,
+                "floorName": "level 1",
+                "building": {
+                    "buildingId": 1,
+                    "buildingName": "Ebloc3",
+                    "buildingAddress": "IT Park"
+                }
+            }
+        },
+        "user": {
+            "userid": 1,
+            "password": "hibernate",
+            "email": "resty.artiaga@gmail.com",
+            "firstName": "Resty Louis",
+            "lastName": "Artiaga",
+            "roles": [
+                {
+                    "roleId": 1,
+                    "roleName": "ROLE_ADMIN"
+                }
+            ]
+        }
+    },
+    {
+        "reservationid": 2,
+        "userId": 1,
+        "roomId": 1,
+        "reservationSchedule": 1435156207000,
+        "duration": 2,
+        "title": "adsfasfd",
+        "description": "asdfsadf",
+        "room": {
+            "roomId": 1,
+            "roomName": "Narnia",
+            "roomCapacity": 2,
+            "floor": {
+                "floorId": 1,
+                "floorNumber": 2,
+                "floorName": "level 1",
+                "building": {
+                    "buildingId": 1,
+                    "buildingName": "Ebloc3",
+                    "buildingAddress": "IT Park"
+                }
+            }
+        },
+        "user": {
+            "userid": 1,
+            "password": "hibernate",
+            "email": "resty.artiaga@gmail.com",
+            "firstName": "Resty Louis",
+            "lastName": "Artiaga",
+            "roles": [
+                {
+                    "roleId": 1,
+                    "roleName": "ROLE_ADMIN"
+                }
+            ]
+        }
+    },
+    {
+        "reservationid": 3,
+        "userId": 1,
+        "roomId": 1,
+        "reservationSchedule": 1433804400000,
+        "duration": 123123,
+        "title": "asdfasdsa",
+        "description": "fasdfsa",
+        "room": {
+            "roomId": 1,
+            "roomName": "Narnia",
+            "roomCapacity": 2,
+            "floor": {
+                "floorId": 1,
+                "floorNumber": 2,
+                "floorName": "level 1",
+                "building": {
+                    "buildingId": 1,
+                    "buildingName": "Ebloc3",
+                    "buildingAddress": "IT Park"
+                }
+            }
+        },
+        "user": {
+            "userid": 1,
+            "password": "hibernate",
+            "email": "resty.artiaga@gmail.com",
+            "firstName": "Resty Louis",
+            "lastName": "Artiaga",
+            "roles": [
+                {
+                    "roleId": 1,
+                    "roleName": "ROLE_ADMIN"
+                }
+            ]
+        }
+    },
+    {
+        "reservationid": 4,
+        "userId": 1,
+        "roomId": 1,
+        "reservationSchedule": 1433289600000,
+        "duration": 12,
+        "title": "asdfasdfasd",
+        "description": "fasfsafsfsafsdf",
+        "room": {
+            "roomId": 1,
+            "roomName": "Camotes",
+            "roomCapacity": 2,
+            "floor": {
+                "floorId": 1,
+                "floorNumber": 2,
+                "floorName": "level 1",
+                "building": {
+                    "buildingId": 1,
+                    "buildingName": "Ebloc3",
+                    "buildingAddress": "IT Park"
+                }
+            }
+        },
+        "user": {
+            "userid": 1,
+            "password": "hibernate",
+            "email": "resty.artiaga@gmail.com",
+            "firstName": "Resty Louis",
+            "lastName": "Artiaga",
+            "roles": [
+                {
+                    "roleId": 1,
+                    "roleName": "ROLE_ADMIN"
+                }
+            ]
+        }
+    }
+]

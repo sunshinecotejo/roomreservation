@@ -1,0 +1,8 @@
+com\fsoft\roomreservation\webapp\controller\TempReserveController.class
+com\fsoft\roomreservation\webapp\controller\ScheduleController.class
+com\fsoft\roomreservation\webapp\model\Reservation.class
+com\fsoft\roomreservation\webapp\controller\BuildingController.class
+com\fsoft\roomreservation\webapp\model\Room.class
+com\fsoft\roomreservation\webapp\controller\URIConstants.class
+com\fsoft\roomreservation\webapp\model\User.class
+com\fsoft\roomreservation\webapp\model\Building.class

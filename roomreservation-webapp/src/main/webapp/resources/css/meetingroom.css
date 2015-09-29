@@ -1,0 +1,19 @@
+/**id reservation-panel**/
+#reservation-panel {
+		width: 320px;
+		padding: 20px;
+		margin: 20px auto;
+		background: #fff;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border: 0px solid #000;
+}
+
+/**id createReservationButton**/
+#createReservationButton{
+	margin-left: 20px;
+}
+/**class date picker**/
+.clsDatePicker {
+    z-index: 100000 !important;
+}
